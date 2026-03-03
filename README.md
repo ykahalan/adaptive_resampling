@@ -43,8 +43,6 @@ Or directly from the **GitHub repo**:
 pip install git+https://github.com/ykahalan/adaptive_resampling.git
 ```
 
----
-
 # Example Usage
 
 ### Single-Class Border and Core Detection
