@@ -1,5 +1,5 @@
-This repo provides a single function which is the implementation of the border and core detection as studied in our paper:
-
+This repo provides a single function which is the implementation of the border and core detection as studied in our paper: 
+[Oversampling and Downsampling with Core-Boundary Awareness: A Data Quality-Driven Approach](https://arxiv.org/abs/2509.19856)
 The border and core detection function has a prototype as follows.
 ```py
 def classify_border_and_core_points(X, y=None, p=2, close=100, percentile=60):
