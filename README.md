@@ -4,8 +4,6 @@ This repo provides a single function for the implementation of border and core d
 
 [Oversampling and Downsampling with Core-Boundary Awareness: A Data Quality-Driven Approach](https://arxiv.org/abs/2509.19856)
 
----
-
 ## Function Prototype
 
 The border and core detection function has the following prototype:
@@ -136,8 +134,6 @@ y_resampled = np.hstack((y_border_resampled, y_core_resampled))
 print(f"Original class distribution: {Counter(y)}")
 print(f"Resampled class distribution: {Counter(y_resampled)}")
 ```
-
----
 
 # Citation
 
